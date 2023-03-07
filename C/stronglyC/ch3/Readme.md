@@ -50,4 +50,13 @@ _getch(), _getche()는 어떤 문자가 입력된 것인지보다는 단지 "아
 
   설명   : 표준입력장치(stdin)에서 문자열을  함수이다.
 
+### gets() 보안 결함을 위한 gets_s() 함수
+* char *gets_s(char *buffer, size_t, sizeInCharacters);
 
+  인자   : buffer : 입력받은 문자열을 저장할 메모리의 주소
+  
+          sizeInCharacters : 문자열이 저장될 메모리의 바이트 단위 크기
+
+  반환값 : 정상적이면 인자로 전달받은 메모리의 주소. 에러가 발생하면 NULL 반환
+
+  설명   : 표준입력장치(stdin)에서 문자열을 입력받은 함수이다.
