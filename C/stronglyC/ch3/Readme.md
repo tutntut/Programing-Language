@@ -20,3 +20,5 @@ int putchar(int c);
 설명   :
 
 표준출력장치(stdout)인 콘솔(Console)에 영문 한 글자를 출력한다. 
+
+### _getch()/_getche() 함수
