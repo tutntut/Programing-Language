@@ -5,3 +5,6 @@
 ### 부호피트와 자료비트 그리고 표현범위
 <img src="https://user-images.githubusercontent.com/97011426/223284273-752cabcf-d615-4336-af10-3e6ed1847772.png" width="60%" height="60%"/>
 맨 앞자리 1bit는 부호비트로서 0일때 양수, 1일때 음수를 표현한다.
+
+### int와 long
+<img src="https://user-images.githubusercontent.com/97011426/223285621-41336187-873d-440d-ac2d-fd6676bfee06.png" width="60%" height="60%"/>
